@@ -7,7 +7,7 @@ import Installapp from './page/Installapp'
 import Login from './page/Login'
 import Signup from './page/Signup'
 import Trendingsongs_all from './page/Trendingsongs_all'
-import All_albums from './page/all_albums'
+import All_albums from './page/All_albums'
 import All_artist from './page/All_artist'
 import All_radio from './page/All_radio'
 
