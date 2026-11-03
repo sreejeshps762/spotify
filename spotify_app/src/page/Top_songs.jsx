@@ -49,7 +49,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards">
-                       <img src="../public/images.jpg" alt="" />
+                       <img src="/images.jpg" alt="" />
                         <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                        <nav>
                        <Link className="song_name" to={'/'}>Pesamale</Link><br />
@@ -60,7 +60,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards"> 
-                      <img src="../public/radhima.jpg" alt="" />
+                      <img src="/radhima.jpg" alt="" />
                        <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                       <nav >
                         <Link className="song_name" to={'/'}>Radhima-From"Think <p style={{marginLeft:"5px"}}>India"</p></Link>
@@ -74,7 +74,7 @@ function Top_songs() {
                   
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/sammi meri warr.jpg" alt="" />
+                  <img src="/sammi meri warr.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                         <Link className="song_name" to={'/'}>Sammi Meri Waar(Accousic)</Link><br />
@@ -83,7 +83,7 @@ function Top_songs() {
                   </nav>
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/rathinamo.jpg" alt="" />
+                  <img src="/rathinamo.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                        <Link className="song_name" to={'/'}>Rathinamo-Femail Version</Link><br />
@@ -99,7 +99,7 @@ function Top_songs() {
             <div className="carousel-item">
               <div className="song_container">
                  <div className="song_cards">
-                  <img src="../public/jailer2.jpg" alt="" />
+                  <img src="/jailer2.jpg" alt="" />
                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                  
                   
@@ -115,7 +115,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards">
-                       <img src="../public/images.jpg" alt="" />
+                       <img src="/images.jpg" alt="" />
                         <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                        <nav>
                        <Link className="song_name" to={'/'}>Pesamale</Link><br />
@@ -126,7 +126,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards"> 
-                      <img src="../public/radhima.jpg" alt="" />
+                      <img src="/radhima.jpg" alt="" />
                        <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                       <nav >
                         <Link className="song_name" to={'/'}>Radhima-From"Think <p style={{marginLeft:"5px"}}>India"</p></Link>
@@ -140,7 +140,7 @@ function Top_songs() {
                   
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/sammi meri warr.jpg" alt="" />
+                  <img src="/sammi meri warr.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                         <Link className="song_name" to={'/'}>Sammi Meri Waar(Accousic)</Link><br />
@@ -149,7 +149,7 @@ function Top_songs() {
                   </nav>
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/rathinamo.jpg" alt="" />
+                  <img src="/rathinamo.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                        <Link className="song_name" to={'/'}>Rathinamo-Femail Version</Link><br />
@@ -213,7 +213,7 @@ function Top_songs() {
         </Link>
                   <div className="song_container">
                 <div className="song_cards popular_artist">
-                  <img src="../public/anirudh.jpg" alt="" />
+                  <img src="/anirudh.jpg" alt="" />
                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                  
                   
@@ -229,7 +229,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards popular_artist"  >
-                       <img src="../public/MG.jpg" alt="" />
+                       <img src="/MG.jpg" alt="" />
                         <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                        <nav>
                        <Link className="song_name" to={'/'}>M.G Sreekumar</Link><br />
@@ -240,7 +240,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards popular_artist"> 
-                      <img src="../public/vineeth.jpg" alt="" />
+                      <img src="/vineeth.jpg" alt="" />
                        <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                       <nav >
                         <Link className="song_name" to={'/'}>Vineeth Sreenivasan</Link>
@@ -253,7 +253,7 @@ function Top_songs() {
                   
                   </div>
                 <div className="song_cards popular_artist">    
-                  <img src="../public/chithra.jpg" alt="" />
+                  <img src="/chithra.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                         <Link className="song_name" to={'/'}>K.S Chithra</Link><br />
@@ -262,7 +262,7 @@ function Top_songs() {
                   </nav>
                   </div>
                 <div className="song_cards popular_artist">    
-                  <img src="../public/ajith sing.jpg" alt="" />
+                  <img src="/ajith sing.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                        <Link className="song_name" to={'/'}>Ajith Sing</Link><br />
@@ -331,7 +331,7 @@ function Top_songs() {
             <div className="carousel-item active">
               <div className="song_container">
                 <div className="song_cards">
-                  <img src="../public/Ashiqui.jpg" alt="" />
+                  <img src="/Ashiqui.jpg" alt="" />
                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                  
                   
@@ -348,7 +348,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards ">
-                       <img src="../public/love song.jpg" alt="" />
+                       <img src="/love song.jpg" alt="" />
                         <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                        <nav>
                        <Link className="song_name" to={'/'}>Ultimate Love Songs-Arijit Singh</Link><br />
@@ -359,7 +359,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards"> 
-                      <img src="../public/memoris.jpg" alt="" />
+                      <img src="/memoris.jpg" alt="" />
                        <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                       <nav >
                         <Link className="song_name" to={'/'}>Making Memoris<p style={{marginLeft:"5px"}}></p></Link>
@@ -372,7 +372,7 @@ function Top_songs() {
                   
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/jab we met.jpg" alt="" />
+                  <img src="/jab we met.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                         <Link className="song_name" to={'/'}>Jam We Met</Link><br />
@@ -385,7 +385,7 @@ function Top_songs() {
                   </nav>
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/jo thum mere ho.jpg" alt="" />
+                  <img src="/jo thum mere ho.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                        <Link className="song_name" to={'/'}>Jo Tum Mere Ho</Link><br />
@@ -401,7 +401,7 @@ function Top_songs() {
             <div className="carousel-item">
               <div className="song_container">
                 <div className="song_cards">
-                  <img src="../public/Ashiqui.jpg" alt="" />
+                  <img src="/Ashiqui.jpg" alt="" />
                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                  
                   
@@ -418,7 +418,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards ">
-                       <img src="../public/love song.jpg" alt="" />
+                       <img src="/love song.jpg" alt="" />
                         <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                        <nav>
                        <Link className="song_name" to={'/'}>Ultimate Love Songs-Arijit Singh</Link><br />
@@ -429,7 +429,7 @@ function Top_songs() {
                   
                 </div>
                 <div className="song_cards"> 
-                      <img src="../public/memoris.jpg" alt="" />
+                      <img src="/memoris.jpg" alt="" />
                        <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                       <nav >
                         <Link className="song_name" to={'/'}>Making Memoris<p style={{marginLeft:"5px"}}></p></Link>
@@ -442,7 +442,7 @@ function Top_songs() {
                   
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/jab we met.jpg" alt="" />
+                  <img src="/jab we met.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                         <Link className="song_name" to={'/'}>Jam We Met</Link><br />
@@ -455,7 +455,7 @@ function Top_songs() {
                   </nav>
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/jo thum mere ho.jpg" alt="" />
+                  <img src="/jo thum mere ho.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <nav>
                        <Link className="song_name" to={'/'}>Jo Tum Mere Ho</Link><br />
@@ -515,7 +515,7 @@ function Top_songs() {
             <div className="carousel-item active">
               <div className="song_container">
                 <div className="song_cards radio_cards">
-                  <img src="../public/ajith radio.jpg" alt="" />
+                  <img src="/ajith radio.jpg" alt="" />
                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                  
                  <p className="radio">
@@ -527,7 +527,7 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                   
                 </div>
                 <div className="song_cards radio_cards">
-                     <img src="../public/kk.jpg" alt="" />
+                     <img src="/kk.jpg" alt="" />
                         <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
 
                         <p className="radio">With Pritam, Vishal-Shekhar, Vishal Mishra</p>
@@ -535,7 +535,7 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                   
                 </div>
                 <div className="song_cards radio_cards"> 
-                      <img src="../public/Shreya radio.jpg" alt="" />
+                      <img src="/Shreya radio.jpg" alt="" />
                        <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
 
                        <p className="radio">With Vishal-Shekhar, Sachin-Jigar, A.R. Rahman</p>
@@ -545,13 +545,13 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                   
                   </div>
                 <div className="song_cards radio_cards">    
-                  <img src="../public/ilayaraja radio.jpg" alt="" />
+                  <img src="/ilayaraja radio.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <p className="radio">With K. J. Yesudas, Swarnalatha, Uma Ramanan</p>
                   
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/AR radio.jpg" alt="" />
+                  <img src="/AR radio.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <p className="radio">With Hariharan, Arijit Singh, Chinmayi</p>
               </div>
@@ -562,7 +562,7 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
             <div className="carousel-item">
               <div className="song_container">
                  <div className="song_cards radio_cards">
-                  <img src="../public/ajith radio.jpg" alt="" />
+                  <img src="/ajith radio.jpg" alt="" />
                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                  
                  <p className="radio">
@@ -574,7 +574,7 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                   
                 </div>
                 <div className="song_cards radio_cards">
-                     <img src="../public/kk.jpg" alt="" />
+                     <img src="/kk.jpg" alt="" />
                         <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
 
                         <p className="radio">With Pritam, Vishal-Shekhar, Vishal Mishra</p>
@@ -582,7 +582,7 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                   
                 </div>
                 <div className="song_cards radio_cards"> 
-                      <img src="../public/Shreya radio.jpg" alt="" />
+                      <img src="/Shreya radio.jpg" alt="" />
                        <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
 
                        <p className="radio">With Vishal-Shekhar, Sachin-Jigar, A.R. Rahman</p>
@@ -592,13 +592,13 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                   
                   </div>
                 <div className="song_cards radio_cards">    
-                  <img src="../public/ilayaraja radio.jpg" alt="" />
+                  <img src="/ilayaraja radio.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <p className="radio">With K. J. Yesudas, Swarnalatha, Uma Ramanan</p>
                   
                   </div>
                 <div className="song_cards">    
-                  <img src="../public/AR radio.jpg" alt="" />
+                  <img src="/AR radio.jpg" alt="" />
                    <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                   <p className="radio">With Hariharan, Arijit Singh, Chinmayi</p>
               </div>
