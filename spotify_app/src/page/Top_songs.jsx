@@ -33,7 +33,7 @@ function Top_songs() {
             <div className="carousel-item active">
               <div className="song_container">
                 <div className="song_cards">
-                  <img src="../public/jailer2.jpg" alt="" />
+                  <img src="/jailer2.jpg" alt="" />
                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
                  
                   
