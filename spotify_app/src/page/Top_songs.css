@@ -1,0 +1,268 @@
+.song_section{
+    width: 72%;
+    height: 500px;
+    background-color: #121212;
+    border-radius: 5px;
+     display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.trending_songs{
+    height: 300px;
+    width: 97%;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    position: relative;
+    
+    
+    
+}
+.artist_section{
+    height: 300px;
+    width: 97%;
+    position: relative;
+     
+    
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.header{
+   margin-left: -620px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+    text-decoration-thickness: 5px;
+}
+.header:hover{
+    text-decoration: underline;
+    color: white;
+}
+.song_cards{
+    width: 170px ;
+    height: 252px;
+    border-radius: 5px;
+   position: relative;
+   display: inline-block;
+    margin-top: 10px;
+    text-align: left;
+    transition: all 0.4s ease-in-out;
+} 
+.song_cards:hover{
+    background: linear-gradient( to top,rgb(61, 61, 61), #302f2f,#1d1d1d);
+}
+.song_cards img{
+    margin-left: 2.5px;
+    margin-top: 5px;
+    width: 135px;
+    height: 135px;
+    border-radius: 5px;
+    position: relative;
+    
+} 
+.writer{
+    font-size: 12px;
+    color: rgb(184, 178, 178);
+    text-decoration: none;
+    
+    
+}
+nav{
+    margin-left: 5px;
+  
+    font-weight: 600;
+}
+.song_name{
+    color: white;
+    text-decoration: none;
+  
+    font-size:14px ;
+}
+.writer:hover {
+    text-decoration: underline !important;
+    color: rgb(184, 178, 178);
+    
+}
+.song_name:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+.showeall {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 15px;
+    color: rgb(209, 205, 205);
+    text-decoration: none;
+}
+.all_artist{
+    top: -15px;
+    
+    
+}
+.all_artist:hover{
+    color: rgb(209, 205, 205);
+    text-decoration: underline;
+}
+.showeall:hover{
+    color: rgb(209, 205, 205);
+    text-decoration: underline;
+}
+.song_container{
+    display: flex;
+    gap: 15px;
+}
+.playbutton{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(24, 180, 24);
+    border-radius: 50%;
+    
+    position: absolute;
+    left: 85px;
+    top: 90px;
+    display: none;
+  
+    
+   
+}
+.play_icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: black;
+    
+
+}
+.song_cards:hover .playbutton{
+    display: block;
+    
+}
+.song_section{
+        min-height: 0;
+
+
+    flex: 1;
+    
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.song_section::-webkit-scrollbar {
+    width: 6px;
+}
+
+.song_section::-webkit-scrollbar-thumb {
+    background-color: #424141;
+    border-radius: 10px;
+}
+.popular_artist{
+    height: 230px;
+    /* width: 145px; */
+    
+  
+    
+   
+}
+.popular_artist img{
+    border-radius: 50%;
+    /* margin-left: 5px; */
+    
+}
+.artist{
+   font-size: 15px;
+   color: gray;
+}
+.radio{
+    font-size: 13px;
+    color: rgb(184, 178, 178);
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.popular_radio{
+    margin-top: 40px;
+    
+}
+
+.popular_album{
+    margin-top: -20px;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 70px;
+
+}
+.sub_footer{
+    width: 95%;
+    height: 220px;
+  
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    gap: 1px;
+}
+.footer_one{
+    width: 20%;
+    height: 220px;
+  
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.footer_one a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700px;
+}
+.footer_one h6{
+    color: white;
+    font-weight: 600;
+}
+.footer_one a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+.footer_last{
+    width: 20%;
+    height: 300px;
+    
+    gap: 10px;
+    display: flex;
+}
+.line{
+    width: 97%;
+    height: 5px;
+    
+}
+.footer_last_icon{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(70, 68, 68);
+    border-radius: 50%;
+}
+.media_icons{
+    color: white;
+    margin-top: 8px;
+}
+.footer_last_icon:hover{
+    background-color: gray;
+    
+}
+.radio_cards{
+    height: 240px;
+}
+.copy_right{
+    text-align: right;
+    margin-top: 30px;
+    color: gray;
+    font-size: 15px;
+    margin-right: 10px;
+}
+

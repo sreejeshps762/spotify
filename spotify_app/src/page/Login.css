@@ -1,0 +1,95 @@
+.login_page{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+     display: flex;
+    justify-content: center;
+    
+    
+}
+.login{
+    width: 400px;
+    height: 600px;
+  
+  
+   
+    margin-top: 80px;
+}
+.login_sptifyicon{
+    color: white;
+    width: 35px;
+    height: 35px;
+
+    
+}
+.login h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+  
+}
+.login label{
+    margin-left: -228px;
+    color: white;
+    font-weight: 500;
+}
+.login input{
+    width: 270px;
+    height: 40px;
+    border-color: white;
+    background-color: transparent;
+}
+.countinue_button{
+    width: 270px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: green;
+    color: black;
+   
+    font-size: 14px;
+    font-weight: 700;
+    border-width: 2px;
+    border-color: gray;
+    
+
+
+}
+.other_lgin_button{
+        width: 270px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 10px;
+   background-color: transparent;
+    color: white;
+    
+    font-size: 14px;
+    font-weight: 700;
+    border-width: 2px;
+    border-color: rgb(180, 175, 175);
+   
+
+}
+.login button:hover{
+    transform: scale(1.05);
+    border-color: white;
+    border-width: 2px;
+
+}
+.option{
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+}
+.login_link{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+
+}
+.login_link:hover{
+     transform: scale(1.05);
+     color: white;
+
+}

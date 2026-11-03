@@ -1,0 +1,16 @@
+.off_canvas{
+    width: 3%;
+    height: 500px;
+    background-color: #121212;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 0;
+   
+}
+.off_canvas button{
+    background-color: #121212;
+    border: 0;
+    margin-top: 250px;
+    color: grey;
+    
+}

@@ -1,0 +1,165 @@
+.library{
+    width: 25%;
+    height: 500px;
+    background-color: #121212;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.heading{
+    flex-shrink: 0;
+    display: flex;
+    gap: 140px;
+    height: 50px;
+    
+    
+
+
+
+    
+}
+
+.heading h2{
+    
+    font-size: 17px;
+    position: relative; 
+    left: 10px;
+    top: 10px;
+    color: white;
+    
+   
+}
+.heading .add_icon{
+
+    margin-top: 15px;
+    background-color: rgb(54, 53, 53);
+    border-radius: 50%;
+    color: white;
+    margin-right: 5px;
+}
+ .create_playlist {
+    width: 245px;
+    
+    height: 120px;
+    flex-shrink: 0;
+    margin-top: 50px;
+
+    margin-left: 18px;
+    border-radius: 5px;
+    background-color: rgb(59, 58, 58);
+    
+}
+.create_playlist h4{
+    color: white;
+    
+    margin-left: -50px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.create_playlist p{
+    
+    color: white;
+    margin-left: -100px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+.create_playlist button{
+    
+    width: 130px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: -80px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    transition: transform 0.3s ease;
+}
+.create_playlist button:hover{
+     transform: scale(1.05);
+    
+
+}
+.languge{
+    
+    height: 280px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #121212;
+    position: sticky;
+    z-index: 300;
+}
+.library_content {
+    
+    
+    min-height: 0;
+
+
+    flex: 1;
+    
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+.library_content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.library_content::-webkit-scrollbar-thumb {
+    background-color: #424141;
+    border-radius: 10px;
+}
+.privecy_link{
+    font-size: 11px;
+    margin-top: 70px;
+    
+    gap: 10px;
+
+}
+.privecy_link a{
+    text-decoration: none;
+    color: rgb(184, 179, 179);
+    margin-left: 10px;
+    
+}
+.privecy_link a:hover{
+    color: white;
+}
+.lng_btn{
+    margin-left: -100px;
+    margin-top: 50px;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    
+    border-color:none;
+     background-color: #121212;
+     transition: transform 0.3s ease;
+}
+.lng_btn:hover{
+    transform: scale(1.05);
+    border-color: white;
+    border-width: 3px;
+
+}
+.lng_btn p{
+    font-size: 18px;
+    margin-top: -28px;
+    margin-left: 25px;
+    font-weight: 500;
+    color: white;
+   
+}
+.lng_icon{
+    margin-left: -70px;
+    margin-top: -5px;
+    color: white;
+}
+
