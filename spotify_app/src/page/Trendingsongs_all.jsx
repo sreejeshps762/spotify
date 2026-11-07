@@ -25,7 +25,7 @@ function Trendingsongs_all() {
                         <div className=" all_trendingsong_heder" >
                             Trending Songs
                         </div>
-                        <div className='all_trendingsongs'>
+                        <div className='all_trendingsongs showall_trendingsongs'>
                             <div className="song_cards all_songs">
                                 <img src="../public/jailer2.jpg" alt="" />
                                 <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>

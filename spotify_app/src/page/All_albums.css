@@ -124,3 +124,10 @@ button h6{
     margin-left: 20px;
     margin-top: 10px;
 }
+.showall_trendingsongs{
+    
+    height: 1450px !important;
+}
+.alltrendingsong_footer{
+    margin-top: 80px;
+}

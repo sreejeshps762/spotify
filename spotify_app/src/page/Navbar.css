@@ -88,3 +88,22 @@ hr {
 .signin_button:hover {
     transform: scale(1.05);
 }
+@media (max-width: 576px) {
+    .download_section{
+        display: none;
+    }
+    .signup_link{
+        display: none;
+    }
+    .login_link{
+        display: none;
+    }
+    .INSTALLED_APP{
+        margin-left: -100px;
+    }
+   
+
+}
+
+
+

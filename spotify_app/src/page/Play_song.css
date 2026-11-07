@@ -1,0 +1,270 @@
+.play_page {
+    background: linear-gradient(
+        to bottom,
+        rgb(98, 238, 98),
+        white
+    ) !important;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    color: black !important;
+   
+    
+   
+}
+.play_page img{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.playsong_content{
+    margin-top: 50px;
+     color: black;
+}
+.playsong_content p{
+    font-size: 15px;
+    font-weight: 500;
+    
+
+
+}
+.playsong_content h2{
+    font-size: 40px;
+    font-weight: 500;
+    
+    
+
+}
+.currentsong_name{
+    margin-left: 280px;
+}
+.playsong_section{
+    width: 100%;
+    min-height: 350px;
+  
+   
+    text-align: left;
+    font-size: 15px;
+   
+}
+.playsong_line hr{
+    height: 2px;
+    color: black;
+    
+    
+    
+}
+.play_the_song{
+    
+    width: 90%;
+    height: 100px;
+   margin-left: 5%;
+  
+}
+
+
+/* Song Section */
+.playsong_section {
+    width: 100%;
+    
+    padding: 10px;
+    color: white;
+}
+
+
+
+/* Song Item */
+.song_item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.song_item:hover {
+    background: #282828;
+}
+
+.song_number {
+    width: 25px;
+    min-width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b3b3b3;
+    font-size: 20px;
+}
+
+.song_details {
+    flex: 1;
+    min-width: 0;
+}
+
+.song_details h4 {
+    color: black !important;
+    
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+
+.song_details p {
+    color: #b3b3b3;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Song Playing Status */
+.song_status {
+    color: green;
+    font-size: 12px;
+}
+
+.active_song .song_details h4,
+.active_song .song_number {
+    color: #1ed760;
+}
+
+/* Current Song Player */
+.current_song_player {
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    background:transparent ;
+    background-color: rgb(196, 193, 193);
+}
+
+.current_song_info {
+    margin-bottom: 12px;
+    background-color: white;
+}
+
+.current_song_info h4 {
+    color: black !important;
+    font-size: 15px;
+    /* margin: 0 0 5px; */
+}
+
+.current_song_info p {
+    color: #b3b3b3;
+    font-size: 13px;
+   
+}
+
+/* Play / Pause */
+.custom_player {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.custom_play_btn {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #1ed760;
+    color: #000;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.custom_play_btn:hover {
+    transform: scale(1.06);
+}
+
+/* Progress Bar */
+.song_progress {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+    min-width: 0;
+}
+
+.song_progress span {
+    color: #b3b3b3;
+    font-size: 12px;
+    min-width: 35px;
+}
+
+.song_progress input[type="range"] {
+    flex: 1;
+    min-width: 0;
+    accent-color: #1ed760;
+    cursor: pointer;
+}
+
+
+.current_song_player,
+.custom_player,
+.current_song_info {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: black !important;
+}
+
+.playsong_section {
+    background: white !important;
+}
+
+.current_song_player h4 {
+    color: black !important;
+}
+/* Remove Black Space Above 3 Songs */
+.play_song_section {
+    
+
+   
+    gap: -10px !important;
+}
+
+
+.play_page {
+    margin-bottom: 0 !important;
+}
+
+.playsong_section {
+    background: white !important;
+    margin-top: 0 !important;
+    padding-top: 10px !important;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .song_item {
+        padding: 12px 8px;
+        gap: 10px;
+    }
+
+    .song_status {
+        font-size: 10px;
+    }
+
+    .custom_player {
+        gap: 10px;
+    }
+
+    .song_progress {
+        gap: 5px;
+    }
+
+    .song_progress span {
+        font-size: 10px;
+        min-width: 30px;
+    }
+    .currentsong_name{
+    margin-left: 160px;
+}
+}

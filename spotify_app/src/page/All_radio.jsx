@@ -26,7 +26,7 @@ function All_radio() {
 
                             Popular Artist
                         </div>
-                        <div className='all_trendingsongs'>
+                        <div className='all_trendingsongs showall_trendingsongs'>
                            <div className="song_cards all_songs">
                                             <img src="../public/ajith radio.jpg" alt="" />
                                             <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>

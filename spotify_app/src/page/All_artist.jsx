@@ -26,7 +26,7 @@ function All_artist() {
 
                             Popular albums
                         </div>
-                        <div className='all_trendingsongs'>
+                        <div className='all_trendingsongs showall_trendingsongs'>
                             <div className="song_cards all_artist">
                                               <img src="../public/anirudh.jpg" alt="" />
                                               <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>

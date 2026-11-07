@@ -266,3 +266,49 @@ nav{
     margin-right: 10px;
 }
 
+
+@media screen and (max-width: 576px) {
+    .sub_footer a {
+        font-size: 10px;
+        
+       
+    }
+  
+       
+    
+    .footer h6{
+        font-size: 10px;
+    }
+    .footer_last_icon{
+        width: 20px;
+        height: 20px;
+    }
+    .media_icons{
+        margin-top: -12px;
+        margin-left: -2px;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .header{
+        margin-left:-220px;
+    }
+    .mediaqurry_heder{
+        margin-right: -400px;
+       
+    }
+    .album_heder{
+        margin-right: -400px;
+    }
+     .radio_heder{
+        margin-right: -400px;
+    }
+    .all_trendingsong_heder{
+        margin-right: 200px;
+    }
+}
+
+

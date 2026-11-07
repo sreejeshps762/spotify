@@ -26,7 +26,7 @@ function All_albums() {
 
                             Popular albums
                         </div>
-                        <div className='all_trendingsongs'>
+                        <div className='all_trendingsongs showall_trendingsongs'>
                             <div className="song_cards all_songs">
                                 <img src="../public/Ashiqui.jpg" alt="" />
                                 <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
@@ -167,7 +167,7 @@ function All_albums() {
                             </div>
 
 
-                            <div className="footer">
+                            <div  className="footer alltrendingsong_footer">
 
                                 <div className="sub_footer">
 
