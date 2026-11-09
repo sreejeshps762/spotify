@@ -29,11 +29,11 @@ function All_artist() {
                         <div className='all_trendingsongs showall_trendingsongs'>
                             <div className="song_cards all_artist">
                                               <img src="../public/anirudh.jpg" alt="" />
-                                              <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                              <div className="playbutton alltrendingsong_playbutton"><Link to={'/anirudh'}><IoPlaySharp className="play_icon"/></Link></div>
                                              
                                               
                                               <nav >
-                                               <Link className="song_name" to={'/'}>Anirudh Ravichanden</Link><br />
+                                               <Link className="song_name" to={'/anirudh'}>Anirudh Ravichanden</Link><br />
                                               <p className="artist">Artist</p>
                                                
                             
@@ -45,9 +45,9 @@ function All_artist() {
                                             </div>
                                             <div className="song_cards all_artist"  >
                                                    <img src="../public/MG.jpg" alt="" />
-                                                    <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                                    <div className="playbutton alltrendingsong_playbutton"><Link to={'/mgsongs'}><IoPlaySharp className="play_icon"/></Link></div>
                                                    <nav>
-                                                   <Link className="song_name" to={'/'}>M.G Sreekumar</Link><br />
+                                                   <Link className="song_name" to={'/mgsongs'}>M.G Sreekumar</Link><br />
                                               
                                               <p className="artist">Artist</p>
                                               
@@ -56,9 +56,9 @@ function All_artist() {
                                             </div>
                                             <div className="song_cards all_artist"> 
                                                   <img src="../public/vineeth.jpg" alt="" />
-                                                   <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                                   <div className="playbutton alltrendingsong_playbutton"><Link to={'/veenithsongs'}><IoPlaySharp className="play_icon"/></Link></div>
                                                   <nav >
-                                                    <Link className="song_name" to={'/'}>Vineeth Sreenivasan</Link>
+                                                    <Link className="song_name" to={'/vineethsongs'}>Vineeth Sreenivasan</Link>
                                               
                                               <p className="artist">Artist</p>
                                              
@@ -69,18 +69,18 @@ function All_artist() {
                                               </div>
                                             <div className="song_cards all_artist">    
                                               <img src="../public/chithra.jpg" alt="" />
-                                               <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                               <div className="playbutton alltrendingsong_playbutton"><Link to={'/chithrasongs'}><IoPlaySharp className="play_icon"/></Link></div>
                                               <nav>
-                                                    <Link className="song_name" to={'/'}>K.S Chithra</Link><br />
+                                                    <Link className="song_name" to={'/chithrasongs'}>K.S Chithra</Link><br />
                                               
                                               <p className="artist">Artist</p>
                                               </nav>
                                               </div>
                                             <div className="song_cards all_artist">    
                                               <img src="../public/ajith sing.jpg" alt="" />
-                                               <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                               <div className="playbutton alltrendingsong_playbutton"><Link to={'/ajithsongs'}><IoPlaySharp className="play_icon"/></Link></div>
                                               <nav>
-                                                   <Link className="song_name" to={'/'}>Ajith Sing</Link><br />
+                                                   <Link className="song_name" to={'/ajithsongs'}>Ajith Sing</Link><br />
                                                    <p className="artist">Artist</p>
                                               
                                               

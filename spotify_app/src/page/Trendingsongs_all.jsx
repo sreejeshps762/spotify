@@ -28,11 +28,11 @@ function Trendingsongs_all() {
                         <div className='all_trendingsongs showall_trendingsongs'>
                             <div className="song_cards all_songs">
                                 <img src="../public/jailer2.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/playsongs'}><IoPlaySharp className="play_icon" /></Link></div>
 
 
                                 <nav >
-                                    <Link className="song_name" to={'/'}>Ala Bolelo</Link><br />
+                                    <Link className="song_name" to={'/playsongs'}>Ala Bolelo</Link><br />
                                     <Link className="writer" to={'/'}>Anirudh Ravichanden,</Link><br />
                                     <Link className="writer" to={'/'}>Anuraj Kumaraj</Link>
 
@@ -45,9 +45,9 @@ function Trendingsongs_all() {
                             
                             <div className="song_cards all_songs">
                                 <img src="../public/images.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/pezamale'}><IoPlaySharp className="play_icon" /></Link></div>
                                 <nav>
-                                    <Link className="song_name" to={'/'}>Pesamale</Link><br />
+                                    <Link className="song_name" to={'/pezamale'}>Pesamale</Link><br />
 
                                     <Link className="writer" to={'/'}>Siri Xander,</Link><br />
                                     <Link className="writer" to={'/'}>Arra Aria Khayal</Link>
@@ -56,9 +56,9 @@ function Trendingsongs_all() {
                             </div>
                             <div className="song_cards all_songs">
                                 <img src="../public/radhima.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/rathimasong'}><IoPlaySharp className="play_icon" /></Link></div>
                                 <nav >
-                                    <Link className="song_name" to={'/'}>Radhima-From"Think <p style={{ marginLeft: "5px" }}>India"</p></Link>
+                                    <Link className="song_name" to={'/rathimasong'}>Radhima-From"Think <p style={{ marginLeft: "5px" }}>India"</p></Link>
 
                                     <Link className="writer" to={'/'}>Sai Abhyankkar,</Link>
                                     <Link className="writer" to={'/'}>Nargis teji,</Link>
@@ -70,18 +70,18 @@ function Trendingsongs_all() {
                             </div>
                             <div className="song_cards all_songs">
                                 <img src="../public/sammi meri warr.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/sammimerisongs'}><IoPlaySharp className="play_icon" /></Link></div>
                                 <nav>
-                                    <Link className="song_name" to={'/'}>Sammi Meri Waar(Accousic)</Link><br />
+                                    <Link className="song_name" to={'/sammimerisongs'}>Sammi Meri Waar(Accousic)</Link><br />
 
                                     <Link className="writer" to={'/'}>Harrykahanhai</Link>
                                 </nav>
                             </div>
                             <div  className="song_cards all_songs">
                                 <img src="../public/rathinamo.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/rathinamosongs'}><IoPlaySharp className="play_icon" /></Link></div>
                                 <nav>
-                                    <Link className="song_name" to={'/'}>Rathinamo-Femail Version</Link><br />
+                                    <Link className="song_name" to={'/rathinamosongs'}>Rathinamo-Femail Version</Link><br />
 
                                     <Link className="writer" to={'/'}>Saurav Srisan,</Link>
                                     <Link className="writer" to={'/'}>Thanisha Gnanavel</Link>

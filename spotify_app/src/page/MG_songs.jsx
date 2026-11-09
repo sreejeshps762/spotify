@@ -139,15 +139,15 @@ function MG_songs() {
 
                             <div>
                                 <img
-                                    src="/images.jpg"
+                                    src="/MG.jpg"
                                     alt="Jailer 2 Album"
                                 />
                             </div>
 
                             <div className="playsong_content">
-                                <p>Album</p>
-                                <h2>Pesamale</h2>
-                                <p>siri xander</p>
+                                
+                                <h2>M.G Sreekumar</h2>
+                                <p>Artist</p>
                             </div>
 
                         </div>

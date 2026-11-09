@@ -149,15 +149,15 @@ const audioRef = useRef(null)
 
                             <div>
                                 <img
-                                    src="/jailer2.jpg"
+                                    src="/radhima.jpg"
                                     alt="Jailer 2 Album"
                                 />
                             </div>
 
                             <div className="playsong_content">
-                                <p>Album</p>
-                                <h2>Jailer 2</h2>
-                                <p>Anirudh Ravichander</p>
+                                 <p>Album</p>
+                                <h2>Radhima</h2>
+                                <p>Sai Abhyankkar</p>
                             </div>
 
                         </div>

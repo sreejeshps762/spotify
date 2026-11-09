@@ -516,7 +516,7 @@ function Top_songs() {
               <div className="song_container">
                 <div className="song_cards radio_cards">
                   <img src="/ajith radio.jpg" alt="" />
-                  <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                  <div className="playbutton"><Link to={'/ajithradio'}><IoPlaySharp className="play_icon"/></Link></div>
                  
                  <p className="radio">
 Public Playlist
@@ -528,7 +528,7 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                 </div>
                 <div className="song_cards radio_cards">
                      <img src="/kk.jpg" alt="" />
-                        <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                        <div className="playbutton"><Link to={'/kk'}><IoPlaySharp className="play_icon"/></Link></div>
 
                         <p className="radio">With Pritam, Vishal-Shekhar, Vishal Mishra</p>
 
@@ -536,7 +536,7 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                 </div>
                 <div className="song_cards radio_cards"> 
                       <img src="/s.jpg" alt="" />
-                       <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                       <div className="playbutton"><Link to={'/shreya'}><IoPlaySharp className="play_icon"/></Link></div>
 
                        <p className="radio">With Vishal-Shekhar, Sachin-Jigar, A.R. Rahman</p>
                   
@@ -546,13 +546,13 @@ With Pritam, A.R. Rahman, Jeet Gannguli</p>
                   </div>
                 <div className="song_cards radio_cards">    
                   <img src="/ilayaraja radio.jpg" alt="" />
-                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                   <div className="playbutton"><Link to={'/ilayaraja'}><IoPlaySharp className="play_icon"/></Link></div>
                   <p className="radio">With K. J. Yesudas, Swarnalatha, Uma Ramanan</p>
                   
                   </div>
                 <div className="song_cards">    
                   <img src="/AR radio.jpg" alt="" />
-                   <div className="playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                   <div className="playbutton"><Link to={'/ar'}><IoPlaySharp className="play_icon"/></Link></div>
                   <p className="radio">With Hariharan, Arijit Singh, Chinmayi</p>
               </div>
             </div>

@@ -29,11 +29,11 @@ function All_albums() {
                         <div className='all_trendingsongs showall_trendingsongs'>
                             <div className="song_cards all_songs">
                                 <img src="../public/Ashiqui.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/Ashiquisongs'}><IoPlaySharp className="play_icon" /></Link></div>
 
 
                                 <nav >
-                                    <Link className="song_name" to={'/'}>Aashiqui2</Link><br />
+                                    <Link className="song_name" to={'/Ashiquisongs'}>Aashiqui2</Link><br />
                                     <Link className="writer" to={'/'}>Mithoon,</Link><br />
                                     <Link className="writer" to={'/'}>Ankit Tiwari,</Link>
                                     <Link className="writer" to={'/'}>jeet Gannguli</Link>
@@ -46,9 +46,9 @@ function All_albums() {
                             </div>
                             <div className="song_cards all_songs ">
                                 <img src="../public/love song.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/ultimatesongs'}><IoPlaySharp className="play_icon" /></Link></div>
                                 <nav>
-                                    <Link className="song_name" to={'/'}>Ultimate Love Songs-Arijit Singh</Link><br />
+                                    <Link className="song_name" to={'/ultimatesongs'}>Ultimate Love Songs-Arijit Singh</Link><br />
 
                                     <Link className="writer" to={'/'}>Arijith sing</Link><br />
 
@@ -57,9 +57,9 @@ function All_albums() {
                             </div>
                             <div className="song_cards all_songs" >
                                 <img src="../public/memoris.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/memorissong'}><IoPlaySharp className="play_icon" /></Link></div>
                                 <nav >
-                                    <Link className="song_name" to={'/'}>Making Memoris<p style={{ marginLeft: "5px" }}></p></Link>
+                                    <Link className="song_name" to={'/memorissong'}>Making Memoris<p style={{ marginLeft: "5px" }}></p></Link>
 
                                     <Link className="writer" to={'/'}>Karan Aujila,</Link>
                                     <Link className="writer" to={'/'}>Ikky</Link>
@@ -70,9 +70,9 @@ function All_albums() {
                             </div>
                             <div className="song_cards all_songs">
                                 <img src="../public/jab we met.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/jamsongs'}><IoPlaySharp className="play_icon" /></Link></div>
                                 <nav>
-                                    <Link className="song_name" to={'/'}>Jam We Met</Link><br />
+                                    <Link className="song_name" to={'/jamsongs'}>Jam We Met</Link><br />
 
                                     <Link className="writer" to={'/'}>Pritam,</Link>
 
@@ -83,9 +83,9 @@ function All_albums() {
                             </div>
                             <div className="song_cards all_songs">
                                 <img src="../public/jo thum mere ho.jpg" alt="" />
-                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon" /></Link></div>
+                                <div className="playbutton alltrendingsong_playbutton"><Link to={'/jotumsongs'}><IoPlaySharp className="play_icon" /></Link></div>
                                 <nav>
-                                    <Link className="song_name" to={'/'}>Jo Tum Mere Ho</Link><br />
+                                    <Link className="song_name" to={'/jotumsongs'}>Jo Tum Mere Ho</Link><br />
 
                                     <Link className="writer" to={'/'}>Anuv Jain</Link>
 

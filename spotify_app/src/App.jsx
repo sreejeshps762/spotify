@@ -26,7 +26,12 @@ import Ultimate_songs from './page/Ultimate_songs'
 import Veenith_songs from './page/Veenith_songs'
 import Rathinamo_song from './page/Rathinamo_song'
 import Radhima_play_song from './page/Radhima_play_song'
-
+import Ajithsing_radio from './page/Ajithsing_radio'
+import Kkradio from './page/Kkradio'
+import Shreyaradio from './page/shreyaradio'
+import AR from './page/AR'
+import Ilayaraja from './page/Ilayaraja'
+import LogeduserRoute from './page/LogeduserRoute'
 
 
 
@@ -43,6 +48,7 @@ function App() {
         <Route path='/install' element={<Installapp/>} />
         <Route path='/login' element={<Login/>} />
           <Route path='/signup' element={<Signup/>} />
+          
           <Route path='/trendingsongs_all' element={<Trendingsongs_all/>} />
               <Route path='/allartist' element={<All_artist/>} />
                      <Route path='/allalbums' element={<All_albums/>} />
@@ -65,6 +71,14 @@ function App() {
                               <Route path='/veenithsongs' element={<Veenith_songs/>} />
                                  <Route path='/rathinamosongs' element={<Rathinamo_song/>} />
                                          <Route path='/rathimasong' element={<Radhima_play_song/>} />
+
+                                         <Route path='/ajithradio' element={<Ajithsing_radio/>} />
+                            <Route path='/kk' element={<Kkradio/>} />
+                            <Route path='/shreya' element={<Shreyaradio/>} />
+                            <Route path='/ar' element={<AR/>} />
+                            <Route path='/ilayaraja' element={<Ilayaraja/>} />
+                            
+                            
                             
                              
         

@@ -119,11 +119,12 @@
 .privecy_link{
     font-size: 11px;
     margin-top: 70px;
-    
+    text-align: left;
     gap: 10px;
 
 }
 .privecy_link a{
+    
     text-decoration: none;
     color: rgb(184, 179, 179);
     margin-left: 10px;
@@ -247,6 +248,7 @@
 .privecy_link{
     font-size: 11px;
     margin-top: 70px;
+    text-align: center;
    
 }
 .lng_btn{

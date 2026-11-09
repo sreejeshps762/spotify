@@ -15,7 +15,7 @@ import { FaXTwitter } from "react-icons/fa6"
 import { CiFacebook } from "react-icons/ci"
 import { IoPlaySharp, IoPauseSharp } from "react-icons/io5"
 
-function Rathinamo_song() {
+function Kkradio() {
 
     const audioRef = useRef(null)
 
@@ -139,15 +139,15 @@ function Rathinamo_song() {
 
                             <div>
                                 <img
-                                    src="/images.jpg"
+                                    src="/kk.jpg"
                                     alt="Jailer 2 Album"
                                 />
                             </div>
 
                             <div className="playsong_content">
-                                <p>Album</p>
-                                <h2>Pesamale</h2>
-                                <p>siri xander</p>
+                                
+                                <h2>K.K</h2>
+                                <p>Radio</p>
                             </div>
 
                         </div>
@@ -392,4 +392,4 @@ function Rathinamo_song() {
     )
 }
 
-export default Rathinamo_song
+export default Kkradio

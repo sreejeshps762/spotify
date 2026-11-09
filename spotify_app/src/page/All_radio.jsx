@@ -29,7 +29,7 @@ function All_radio() {
                         <div className='all_trendingsongs showall_trendingsongs'>
                            <div className="song_cards all_songs">
                                             <img src="../public/ajith radio.jpg" alt="" />
-                                            <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                            <div className="playbutton alltrendingsong_playbutton"><Link to={'/ajithradio'}><IoPlaySharp className="play_icon"/></Link></div>
                                            
                                            <p className="radio">
                           Public Playlist
@@ -41,7 +41,7 @@ function All_radio() {
                                           </div>
                                           <div className="song_cards all_songs">
                                                <img src="../public/kk.jpg" alt="" />
-                                                  <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                                  <div className="playbutton alltrendingsong_playbutton"><Link to={'/kk'}><IoPlaySharp className="play_icon"/></Link></div>
                           
                                                   <p className="radio">With Pritam, Vishal-Shekhar, Vishal Mishra</p>
                           
@@ -49,7 +49,7 @@ function All_radio() {
                                           </div>
                                           <div className="song_cards all_songs"> 
                                                 <img src="../public/Shreya radio.jpg" alt="" />
-                                                 <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                                 <div className="playbutton alltrendingsong_playbutton"><Link to={'/shreya'}><IoPlaySharp className="play_icon"/></Link></div>
                           
                                                  <p className="radio">With Vishal-Shekhar, Sachin-Jigar, A.R. Rahman</p>
                                             
@@ -59,13 +59,13 @@ function All_radio() {
                                             </div>
                                           <div className="song_cards all_songs">    
                                             <img src="../public/ilayaraja radio.jpg" alt="" />
-                                             <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                             <div className="playbutton alltrendingsong_playbutton"><Link to={'/ilayaraja'}><IoPlaySharp className="play_icon"/></Link></div>
                                             <p className="radio">With K. J. Yesudas, Swarnalatha, Uma Ramanan</p>
                                             
                                             </div>
                                           <div className="song_cards all_songs">    
                                             <img src="../public/AR radio.jpg" alt="" />
-                                             <div className="playbutton alltrendingsong_playbutton"><Link to={'/'}><IoPlaySharp className="play_icon"/></Link></div>
+                                             <div className="playbutton alltrendingsong_playbutton"><Link to={'/ar'}><IoPlaySharp className="play_icon"/></Link></div>
                                             <p className="radio">With Hariharan, Arijit Singh, Chinmayi</p>
                                         </div>
 

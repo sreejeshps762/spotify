@@ -139,15 +139,15 @@ function Sammimeri_song() {
 
                             <div>
                                 <img
-                                    src="/images.jpg"
+                                    src="/sammi meri warr.jpg"
                                     alt="Jailer 2 Album"
                                 />
                             </div>
 
                             <div className="playsong_content">
-                                <p>Album</p>
-                                <h2>Pesamale</h2>
-                                <p>siri xander</p>
+                                 <p>Album</p>
+                                <h2>Sammi Meri Waar</h2>
+                                <p>Harrykanhanhai</p>
                             </div>
 
                         </div>

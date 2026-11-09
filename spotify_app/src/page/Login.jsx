@@ -28,6 +28,9 @@ function Sign_in() {
         JSON.stringify(logeduser)
       )
 
+      // Login status true
+      localStorage.setItem("isLoggedIn", "true")
+
       setMessage("login success")
 
       navigate('/')
