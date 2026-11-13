@@ -116,17 +116,17 @@ function Library() {
             const store = transaction.objectStore("songs")
 
             // Save each audio file
-            audioFiles.forEach(file => {
+     audioFiles.forEach(file => {
 
-              const id = crypto.randomUUID();
+    const id = crypto.randomUUID();
 
-store.add({
-  id: id,
-  name: file.name,
-  audio: file
-}, id);
+    store.add({
+        id: id,
+        name: file.name,
+        audio: file
+    });
 
-            })
+});
 
             transaction.oncomplete = () => {
 
