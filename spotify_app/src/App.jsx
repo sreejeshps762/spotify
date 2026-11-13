@@ -49,10 +49,10 @@ function App() {
         <Route path='/login' element={<Login/>} />
           <Route path='/signup' element={<Signup/>} />
           
-          <Route path='/trendingsongs_all' element={<Trendingsongs_all/>} />
-              <Route path='/allartist' element={<All_artist/>} />
-                     <Route path='/allalbums' element={<All_albums/>} />
-                            <Route path='/allradio' element={<All_radio/>} />
+          <Route path='/trendingsongs_all' element={<LogeduserRoute><Trendingsongs_all/></LogeduserRoute>} />
+              <Route path='/allartist' element={<LogeduserRoute><All_artist/></LogeduserRoute>} />
+                     <Route path='/allalbums' element={<LogeduserRoute><All_albums/></LogeduserRoute>} />
+                            <Route path='/allradio' element={<LogeduserRoute><All_radio/></LogeduserRoute>} />
                               <Route path='/playsongs' element={<Play_song/>} />
                               <Route path='/pezamale' element={<Pezamale_play_song/>} />
                               <Route path='/playlist' element={<Your_playlist/>} />
@@ -77,6 +77,7 @@ function App() {
                             <Route path='/shreya' element={<Shreyaradio/>} />
                             <Route path='/ar' element={<AR/>} />
                             <Route path='/ilayaraja' element={<Ilayaraja/>} />
+                              
                             
                             
                             
